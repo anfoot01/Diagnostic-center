@@ -546,6 +546,12 @@ body {
   margin-bottom: 111px;
 }
 
+@media (max-width: 636px) {
+  .welcome {
+    margin-bottom: 51px;
+  }
+}
+
 .services {
   padding: 0;
 }
