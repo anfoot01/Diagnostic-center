@@ -564,6 +564,7 @@ body {
   padding: 46rem 26rem;
   background: #f9f1fe;
   transition: 0.2s all ease-in-out;
+  cursor: pointer;
 }
 
 .services__item__img {
