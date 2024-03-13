@@ -341,7 +341,6 @@ body {
 }
 
 .header__li:hover {
-  border-bottom: 1.5px solid #8842f0;
   font-weight: 600;
 }
 
@@ -394,6 +393,10 @@ body {
     font-size: 24rem;
     color: var(--c-text-white);
   }
+}
+
+.header__a__active {
+  border-bottom: 1px solid #8842f0;
 }
 
 .header__join-form {

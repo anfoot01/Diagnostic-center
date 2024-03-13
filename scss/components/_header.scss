@@ -27,7 +27,6 @@
 		transition: .2s all ease-in-out;
 	}
 	&__li:hover{
-		border-bottom: 1.5px solid #8842f0 ;
 		font-weight: 600;
 	}
 
@@ -78,6 +77,9 @@
 		@include tablet {
 			font-size: 24rem;
 			color: var(--c-text-white);
+		}
+		&__active{
+			border-bottom: 1px solid rgb(136, 66, 240);
 		}
 	}
 
