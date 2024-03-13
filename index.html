@@ -22,10 +22,10 @@
 		<div class="header__nav">
 			<ul class="header__ul" id="headerUl">
 				<li class="header__li"><a class="header__a__active" href="/">Home</a></li>
-				<li class="header__li"><a class="header__a" href="/">Service</a></li>
-				<li class="header__li"><a class="header__a" href="/">Doctors</a></li>
-				<li class="header__li"><a class="header__a" href="/">Gallery</a></li>
-				<li class="header__li"><a class="header__a" href="/">Contact</a></li>
+				<li class="header__li"><a class="header__a" href="#service">Service</a></li>
+				<li class="header__li"><a class="header__a" href="#doctors">Doctors</a></li>
+				<li class="header__li"><a class="header__a" href="#gallery">Gallery</a></li>
+				<li class="header__li"><a class="header__a" href="#contact">Contact</a></li>
 				<span class="material-icons icon-close">close</span>
 			</ul>
 			<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="services">
+			<section id="service" class="services">
 				<div class="services__info">
 					<h1 class="services__title title">Our Services</h1>
 					<p class="services__desc desc">Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
@@ -86,7 +86,7 @@
 						<div class="services__item__title">Call For Appointments</div>
 						<div class="services__item__desc">Velit faucibus sed adipiscing commodo. Mattis in at amet,
 							facilisis eu dolor. Quam sit risus egestas morbi.</div>
-						<div class="services__item__link"><span><a href="/">Learn More <svg width="24" height="24"
+						<div class="services__item__link"><span><a class="services__item__link__a" href="/">Learn More <svg width="24" height="24"
 										viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<mask id="mask0_1_138" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
 											y="0" width="24" height="24">
@@ -117,7 +117,7 @@
 						<div class="services__item__title">Find A Doctor</div>
 						<div class="services__item__desc">Velit faucibus sed adipiscing commodo. Mattis in at amet,
 							facilisis eu dolor. Quam sit risus egestas morbi.</div>
-						<div class="services__item__link"><span><a href="/">Learn More <svg width="24" height="24"
+						<div class="services__item__link"><span><a class="services__item__link__a" href="/">Learn More <svg width="24" height="24"
 										viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<mask id="mask0_1_138" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
 											y="0" width="24" height="24">
@@ -148,7 +148,7 @@
 						<div class="services__item__title">Our Services</div>
 						<div class="services__item__desc">Velit faucibus sed adipiscing commodo. Mattis in at amet,
 							facilisis eu dolor. Quam sit risus egestas morbi.</div>
-						<div class="services__item__link"><span><a href="/">Learn More <svg width="24" height="24"
+						<div class="services__item__link"><span><a class="services__item__link__a" href="/">Learn More <svg width="24" height="24"
 										viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<mask id="mask0_1_138" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
 											y="0" width="24" height="24">
@@ -164,7 +164,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="doctors">
+			<section id="doctors" class="doctors">
 				<div class="doctors__info">
 					<h1 class="doctors__title title">Choose Your Specialist Doctor</h1>
 					<p class="doctors__desc desc">Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
@@ -277,7 +277,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="join">
+			<section id="gallery" class="join">
 				<div class="join__title">Join Our Newsletter</div>
 				<form class="join-form">
 					<input class="join-form__input" type="email" placeholder="Enter your email" />
@@ -291,8 +291,8 @@
 	</main>
 
 
-	<footer class="footer">
-		<div class="footer__row">
+	<footer  class="footer">
+		<div id="contact" class="footer__row">
 			<div class="footer__info">
 				<h1 class="footer__info__title">Quiro Diagnostic Center</h1>
 				<p class="footer__info__desc">Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc etiam

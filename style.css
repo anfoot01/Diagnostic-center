@@ -589,10 +589,12 @@ body {
 .services__item__img {
   text-align: center;
   color: black;
+  color: currentcolor;
 }
 
 .services__item__title {
   color: #262626;
+  color: currentcolor;
   font-family: var(--ff);
   font-size: 24rem;
   font-weight: 600;
@@ -604,6 +606,7 @@ body {
 
 .services__item__desc {
   color: #575757;
+  color: currentcolor;
   font-family: var(--ff);
   font-size: 16rem;
   font-weight: 400;
@@ -616,6 +619,7 @@ body {
 .services__item__link {
   text-align: center;
   color: #8842f0;
+  color: currentcolor;
   font-family: var(--ff);
   font-size: 16rem;
   font-weight: 600;
@@ -623,14 +627,21 @@ body {
   text-decoration: underline;
 }
 
+.services__item__link__a {
+  color: #8842f0;
+  color: currentcolor;
+}
+
 .services__item__link svg {
   color: #8842f0;
+  color: currentcolor;
   transform: translateY(6px);
 }
 
 .services__item:hover {
   transform: scale(1.03);
-  background: #8842F0;
+  color: #fff;
+  background-color: #8842F0;
 }
 
 .doctors__title {

@@ -28,13 +28,16 @@
         background: rgb(249, 241, 254);
         transition: 0.2s all ease-in-out;
         cursor: pointer;
+        
         &__img {
             text-align: center;
             color: black;
+            color: currentcolor;
         }
 
         &__title {
             color: rgb(38, 38, 38);
+            color: currentcolor;
             font-family: var(--ff);
             font-size: 24rem;
             font-weight: 600;
@@ -46,6 +49,7 @@
 
         &__desc {
             color: rgb(87, 87, 87);
+            color: currentcolor;
             font-family: var(--ff);
             font-size: 16rem;
             font-weight: 400;
@@ -58,24 +62,28 @@
         &__link {
             text-align: center;
             color: rgb(136, 66, 240);
+            color: currentcolor;
             font-family: var(--ff);
             font-size: 16rem;
             font-weight: 600;
             line-height: 19rem;
             text-decoration: underline;
+            &__a{
+                color: rgb(136, 66, 240);
+                color: currentcolor;
+            }
         }
 
         &__link svg {
             color: rgb(136, 66, 240);
+            color: currentcolor;
             transform: translateY(6px);
-
         }
     }
 
     &__item:hover {
         transform: scale(1.03);
-        background: #8842F0;
-        // color: #fff;
-        // background-color:#fff;
+        color: #fff;
+        background-color:#8842F0;
     }
 }
