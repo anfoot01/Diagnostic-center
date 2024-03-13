@@ -427,6 +427,15 @@ body {
 
 .header__join-form__btn-search {
   top: 4rem;
+  width: 24rem;
+  height: 24rem;
+}
+
+@media (max-width: 636px) {
+  .header__join-form__btn-search {
+    width: 16rem;
+    height: 16rem;
+  }
 }
 
 .icon-menu,
@@ -801,4 +810,8 @@ body {
   font-size: 16rem;
   font-weight: 400;
   line-height: 19rem;
+}
+
+.adress-link {
+  color: #262626;
 }
