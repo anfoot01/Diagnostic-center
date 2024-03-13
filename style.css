@@ -403,6 +403,13 @@ body {
   border-bottom: 1px solid #8842f0;
 }
 
+@media (max-width: 992px) {
+  .header__a__active {
+    font-size: 24rem;
+    color: var(--c-text-white);
+  }
+}
+
 .header__join-form {
   border-radius: 50rem;
   background: #000000;
