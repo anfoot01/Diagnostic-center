@@ -94,6 +94,7 @@
 		margin-inline: right;
 
 		&__input {
+			min-width: 80rem;
 			width: 100%;
 			background: transparent;
 			border: 0;
@@ -116,6 +117,7 @@
 			top: 4rem;
 			width: 24rem;
 			height: 24rem;
+			cursor: pointer;
 			@include mobile{
 				width: 16rem;
 				height: 16rem;

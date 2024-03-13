@@ -134,6 +134,10 @@ ul {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 :root {
   --ff: "Work Sans", sans-serif;
   --transition: .2s all ease-in-out;
@@ -411,6 +415,7 @@ body {
 }
 
 .header__join-form__input {
+  min-width: 80rem;
   width: 100%;
   background: transparent;
   border: 0;
@@ -432,6 +437,7 @@ body {
   top: 4rem;
   width: 24rem;
   height: 24rem;
+  cursor: pointer;
 }
 
 @media (max-width: 636px) {
@@ -698,6 +704,7 @@ body {
 
 .footer {
   background: #f9f1fe;
+  width: 100%;
 }
 
 .footer__row {
