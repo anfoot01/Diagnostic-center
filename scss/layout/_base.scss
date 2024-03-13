@@ -1,0 +1,62 @@
+html {
+	font-size: 1px;
+
+	@include desktop-small {
+		font-size: 0.9px;
+	}
+
+	@include tablet {
+		font-size: 0.8px;
+	}
+
+	@include mobile {
+		font-size: 0.6px;
+	}
+
+}
+
+body {
+	font-family: var(--ff);
+	font-size: 16rem;
+	@include desktop-small {
+		padding: 0 55rem;
+	}
+
+	@include mobile {
+		padding: 0 15rem;
+	}
+}
+
+.container {
+	max-width: calc(1170rem - 40rem);
+	padding: 0 20rem;
+	margin-inline: auto;
+}
+
+.title {
+	color: rgb(38, 38, 38);
+	font-family: var(--ff);
+	font-size: 48rem;
+	font-weight: 700;
+	line-height: 70rem;
+	text-align: center;
+}
+
+.desc {
+	color: rgb(38, 38, 38);
+	font-family: var(--ff);
+	font-size: 16rem;
+	font-weight: 400;
+	line-height: 19rem;
+	max-width: 837rem;
+	text-align: center;
+	margin-inline: auto;
+}
+
+.btn {
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	font-family: var(--ff);
+	border-radius: 50rem;
+}

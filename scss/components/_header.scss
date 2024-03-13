@@ -1,0 +1,128 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20rem;
+	border-bottom: 1rem solid var(--c-border);
+    max-width: calc(1170rem - 40rem);
+	padding: 0 20rem;
+	margin-inline: auto;
+	margin-top: 40rem;
+	&__logo {
+		color: rgb(38, 38, 38);
+		font-family: var(--ff);
+		font-size: 24rem;
+		font-weight: 600;
+		line-height: 28rem;
+		margin-left: 23rem;
+	}
+
+	&__li {
+		color: rgb(0, 0, 0);
+		font-family: var(--ff);
+		font-size: 16rem;
+		font-weight: 400;
+		line-height: 19rem;
+		transition: .2s all ease-in-out;
+	}
+	&__li:hover{
+		border-bottom: 1.5px solid #8842f0 ;
+		font-weight: 600;
+	}
+
+	&__nav {
+		margin-inline: auto;
+	}
+
+	&__ul {
+
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+		gap: 20rem;
+		
+
+		@include tablet {
+			position: fixed;
+			width: 40%;
+			height: 100%;
+			flex-direction: column;
+			left: 0;
+			top: 0;
+			background: var(--c-primary);
+			align-items: center;
+			justify-content: center;
+			transform: translateX(-120%);
+			transition: var(--transition);
+			z-index: 2;
+			gap: 52rem;
+		}
+
+		&._active {
+			transform: translateX(0);
+		}
+
+
+
+		.icon-close {
+			position: absolute;
+			top: 40rem;
+			right: 40rem;
+			color: var(--c-text-white);
+		}
+	}
+
+	&__a {
+		font-size: 16rem;
+		@include tablet {
+			font-size: 24rem;
+			color: var(--c-text-white);
+		}
+	}
+
+	&__join-form {
+		border-radius: 50rem;
+		background: #000000;
+		padding: 11rem 12rem 12rem 18rem ;
+		gap: 37rem;
+		display: flex;
+		max-width: 248rem;
+		max-height: 43rem;
+		margin-inline: right;
+
+		&__input {
+			width: 100%;
+			background: transparent;
+			border: 0;
+			font-family: var(--ff);
+			font-weight: 400;
+			font-size: 16rem;
+			color: #ffffff;
+
+
+			&::placeholder {
+				color: rgb(255, 255, 255);
+				font-family: var(--ff);
+				font-size: 14rem;
+				font-weight: 400;
+				line-height: 16rem;
+			}
+
+		}
+        &__btn-search{
+			top: 4rem;
+		}
+	}
+}
+
+
+
+.icon-menu,
+.icon-close {
+	cursor: pointer;
+	display: none;
+
+	@include tablet {
+		display: inline-block;
+	}
+}
